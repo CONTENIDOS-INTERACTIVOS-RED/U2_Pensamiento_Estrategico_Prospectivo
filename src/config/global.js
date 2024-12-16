@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Componente Formativo ',
+    componenteFormativo: 'Componente Formativo',
     descripcionCurso:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -15,8 +15,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Introducción al pensamiento estratégico',
+    numeroUnidad: '2',
+    tituloUnidad: 'Prospectiva y análisis de escenarios futuros',
   },
   menuPrincipal: {
     menu: [
@@ -30,26 +30,14 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Introducción al pensamiento estratégico ',
+        titulo: 'Conceptos básicos de la prospectiva',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Historia y evolución de la planeación estratégica',
+            titulo: 'Diferencias entre prospectiva y predicción',
             hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Concepto de pensamiento estratégico',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Importancia del pensamiento estratégico',
-            hash: 't_1_3',
           },
         ],
       },
@@ -57,33 +45,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Diferencias entre planificación tradicional y pensamiento estratégico',
+        titulo: 'Herramientas de análisis prospectivo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Diferencias conceptuales',
+            titulo: 'Técnica Delphi',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Diferencias claves',
+            titulo: 'Análisis PESTEL',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Ventajas y desventajas',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Casos y ejemplos',
-            hash: 't_2_4',
           },
         ],
       },
@@ -91,16 +66,55 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Habilidades y competencias del pensamiento estratégico ',
+        titulo: 'Identificación de tendencias, riesgos y oportunidades futuras',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipos de tendencias: macro y micro tendencias',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Métodos para identificar riesgos futuros',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Estrategias para aprovechar oportunidades futuras',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo:
-          'Análisis de la toma de decisiones estratégicas en diferentes áreas profesionales',
+        titulo: 'Elaboración de escenarios prospectivos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Metodologías comunes',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Aplicación en sectores económicos',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Retos y desafíos en la implementación',
+            hash: 't_4_3',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -186,99 +200,94 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Flexibilidad',
-      significado:
-        'capacidad de ajustar las estrategias y planes en función de los cambios en el entorno o la organización.',
-    },
-    {
       termino: 'Prospectiva',
       significado:
-        'técnica que se utiliza para prever y planificar escenarios futuros basados en el análisis de tendencias y eventos actuales.',
+        'enfoque estratégico que permite analizar múltiples futuros posibles para anticiparse a cambios y tomar decisiones informadas.',
     },
     {
-      termino: 'Colaboración interdepartamental',
+      termino: 'Predicción',
       significado:
-        'cooperación entre diferentes áreas o departamentos dentro de una organización para mejorar la toma de decisiones estratégicas.',
+        'técnica que intenta anticipar un único futuro basado en datos y patrones históricos, en contraste con la exploración de múltiples escenarios de la prospectiva ',
     },
     {
-      termino: 'Visión sistémica',
+      termino: 'Técnica Delphi',
       significado:
-        'capacidad de entender cómo las diferentes partes de un sistema o situación interactúan entre sí para influir en los resultados globales.',
+        'método cualitativo de previsión basado en la consulta iterativa a expertos para alcanzar consenso sobre futuros posibles.',
     },
     {
-      termino: 'Análisis FODA',
+      termino: 'Análisis PESTEL',
       significado:
-        'herramienta que evalúa Fortalezas, Oportunidades, Debilidades y Amenazas en un contexto estratégico.',
+        'herramienta que evalúa factores externos (políticos, económicos, sociales, tecnológicos, ambientales y legales) que pueden afectar a una organización',
     },
     {
-      termino: 'Análisis crítico',
+      termino: 'Macro tendencias',
       significado:
-        'proceso de evaluación objetiva de información para fundamentar decisiones estratégicas.',
+        'cambios estructurales a largo plazo que impactan a la sociedad en general, como la globalización y la digitalización.',
     },
     {
-      termino: 'Adaptabilidad',
+      termino: 'Micro tendencias',
       significado:
-        'capacidad de ajustar estrategias y acciones en respuesta a cambios en el entorno o condiciones internas.',
+        'cambios específicos y de corto plazo que afectan a nichos o sectores específicos de la sociedad.',
     },
     {
-      termino: 'Planificación lineal',
+      termino: 'Riesgos futuros',
       significado:
-        'método tradicional de planificación que sigue un enfoque secuencial y rígido, basado en supuestos de estabilidad.',
+        'posibles amenazas o eventos adversos que pueden afectar a una organización, clasificadas en tipos como económicos, sociales y medioambientales.',
+    },
+    {
+      termino: 'Análisis de vulnerabilidad ',
+      significado:
+        'método para identificar debilidades internas de una organización que pueden ser afectadas por factores externos.',
+    },
+    {
+      termino: 'Mapeo de riesgos',
+      significado:
+        'técnica para clasificar y visualizar los riesgos en función de su probabilidad e impacto, facilitando la toma de decisiones estratégicas.',
+    },
+    {
+      termino: 'Diversificación',
+      significado:
+        'estrategia de expansión que consiste en introducir nuevos productos o servicios para adaptarse a las demandas emergentes del mercado.',
+    },
+    {
+      termino: 'Escenario prospectivo',
+      significado:
+        'representación de un posible futuro basado en el análisis de tendencias y factores de cambio, que guía la planificación estratégica.',
+    },
+    {
+      termino: 'Adaptación estratégica',
+      significado:
+        'capacidad de una organización para ajustar sus estrategias en respuesta a cambios en el entorno, con el fin de mantener su competitividad.',
+    },
+    {
+      termino: 'Planificación estratégica',
+      significado:
+        'proceso de desarrollo y ejecución de planes para alcanzar los objetivos de una organización, ajustándose a los cambios del entorno.',
+    },
+    {
+      termino: 'Globalización',
+      significado:
+        'proceso de integración de los mercados y culturas a nivel mundial, generando interdependencia económica y social entre países.',
+    },
+    {
+      termino: 'Digitalización',
+      significado:
+        'transformación de procesos, productos y servicios mediante el uso de tecnologías digitales, una macrotendencia que impacta todos los sectores.',
+    },
+    {
+      termino: '<em>Big Data</em>',
+      significado:
+        'conjunto de técnicas y tecnologías que permiten analizar grandes volúmenes de datos para extraer información relevante y facilitar la toma de decisiones.',
+    },
+    {
+      termino: 'Residencia organizacional',
+      significado:
+        'capacidad de una organización para adaptarse y recuperarse de crisis o cambios adversos, manteniendo su funcionamiento y competitividad.',
     },
     {
       termino: 'Innovación disruptiva',
       significado:
-        'introducción de nuevas ideas, productos o servicios que cambian de manera significativa las reglas del mercado o sector.',
-    },
-    {
-      termino: 'Ética en la estrategia',
-      significado:
-        'consideración de los efectos sociales y ambientales de las decisiones estratégicas para garantizar un impacto sostenible.',
-    },
-    {
-      termino: 'Competencias estratégicas',
-      significado:
-        'habilidades que permiten evaluar, planificar y ejecutar acciones que alinean los objetivos a largo plazo con la realidad actual.',
-    },
-    {
-      termino: 'Visión a largo plazo',
-      significado:
-        'habilidad para considerar los impactos futuros de las decisiones presentes y planificar en consecuencia.',
-    },
-    {
-      termino: 'Toma de decisiones',
-      significado:
-        'proceso mediante el cual se elige una opción entre varias posibles para resolver un problema o aprovechar una oportunidad.',
-    },
-    {
-      termino: 'Proactividad',
-      significado:
-        'acción de anticiparse a los problemas y oportunidades para evitar impactos negativos o aprovechar ventajas.',
-    },
-    {
-      termino: 'Liderazgo estratégico',
-      significado:
-        'capacidad de guiar a un equipo u organización hacia el logro de metas a largo plazo mediante la visión y adaptación.',
-    },
-    {
-      termino: 'Innovación',
-      significado:
-        'proceso de introducir nuevas ideas o métodos que mejoren productos, servicios o procesos estratégicos.',
-    },
-    {
-      termino: 'Habilidades analíticas',
-      significado:
-        'competencias necesarias para descomponer y evaluar situaciones complejas, facilitando la toma de decisiones.',
-    },
-    {
-      termino: 'Resiliencia',
-      significado:
-        'capacidad de adaptarse y recuperarse ante situaciones adversas o cambios imprevistos en el entorno.',
-    },
-    {
-      termino: 'Anticipación',
-      significado:
-        'habilidad para prever y preparar para posibles escenarios futuros antes de que sucedan.',
+        'introducción de productos o servicios que cambian significativamente las reglas del mercado, generando nuevas oportunidades y desafío ',
     },
   ],
   complementario: [

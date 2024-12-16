@@ -2,7 +2,8 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad 1, Introducción al pensamiento estratégico, ofrece los fundamentos conceptuales para comprender esta habilidad esencial en la toma de decisiones y la anticipación a escenarios futuros. Se exploran la evolución histórica de la planificación estratégica, el concepto de pensamiento estratégico y su relevancia en contextos dinámicos. Esta unidad proporciona una base integral que fomenta la innovación, el liderazgo y la capacidad de adaptación frente a desafíos complejos, asegurando que los estudiantes desarrollen competencias clave para su aplicación en diversos contextos profesionales.
+    p.mb-4.mb-md-5 La Unidad 2: Prospectiva y análisis de escenarios futuros, ofrece las bases conceptuales para comprender y aplicar la prospectiva como herramienta estratégica en la planificación. A través de metodologías como el análisis PESTEL y la técnica Delphi, los estudiantes aprenderán a explorar múltiples futuros posibles, identificar tendencias, riesgos y oportunidades, y diseñar estrategias adaptativas. Este enfoque les permitirá anticiparse a cambios y liderar con confianza en un entorno dinámico y complejo, fortaleciendo su capacidad para tomar decisiones informadas e innovadoras.
+
 
     .row.justify-content-center
       .col-lg-12.mb-5

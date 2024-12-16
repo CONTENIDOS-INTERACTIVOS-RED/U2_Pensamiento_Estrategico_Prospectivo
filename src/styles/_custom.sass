@@ -61,26 +61,6 @@
     padding-left: 1.5rem
     padding-right: 1.5rem
 
-.bg-fondo
-  &-1
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: bottom
-    background-image: url("../assets/curso/temas/fondo-2.png") !important
-    background-position: top
-//   &-2
-//     background-image: url("../assets/bg/bg2.png") !important
-//     background-position: bottom
-//   &-3
-//     background-image: url("../assets/bg/bg3.png") !important
-//     background-position: bottom
-//   &-4
-//     background-image: url("../assets/bg/bg4.png") !important
-//     background-position: bottom
-  // &-slider
-  //   background-image: url("../assets/bg/bg-slider.png") !important
-  //   background-position: bottom
-
 // Variables
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
@@ -175,8 +155,11 @@ $custom-card-img-height: 224px
   top: -48px
   inline-size: auto
 
+.tabs-c__tab--active
+  border-color: $color-primario !important
+
 .tabs-content
-  background-color: #FDF9F3
+  background-color: #F3F3F3
 
 .material-complementario
   a
@@ -217,3 +200,165 @@ $custom-card-img-height: 224px
   background-color: #8A4A2D
 .mn 
   margin: 0 -3rem
+
+//colores
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+
+.sompra-p-1
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  -moz-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+
+.borde-p-1
+  border-bottom: 1px solid #AFAFAF
+
+.tabla-p-1
+  td
+    background-color: #F6F6F6
+  th
+    background-color: #FFF4C0 !important
+  tbody
+    tr 
+      td:first-child
+        border-right: 1px solid #707070
+      td
+        border-right: 1px solid #707070
+      td:last-child
+        border: none
+  thead
+    tr
+      th
+        border-right: 1px solid #707070
+      th:last-child
+        border: none
+
+//bordes
+.no-borde
+  border: none !important
+.borde-2
+  border-radius: 2px
+.borde-3
+  border-radius: 3px
+.borde-4
+  border-radius: 4px
+.borde-5
+  border-radius: 5px
+.borde-6
+  border-radius: 6px
+.borde-8
+  border-radius: 8px
+.borde-9
+  border-radius: 9px
+.borde-10
+  border-radius: 10px
+.borde-11
+  border-radius: 11px
+.borde-12
+  border-radius: 12px
+.borde-13
+  border-radius: 13px
+.borde-14
+  border-radius: 14px
+.borde-15
+  border-radius: 15px
+.borde-16
+  border-radius: 16px
+.borde-17
+  border-radius: 17px
+.borde-18
+  border-radius: 18px
+.borde-19
+  border-radius: 19px
+.borde-20
+  border-radius: 20px
+.borde-21
+  border-radius: 21px
+.borde-22
+  border-radius: 22px
+.borde-23
+  border-radius: 23px
+.borde-27
+  border-radius: 27px
+.borde-30
+  border-radius: 30px
+.borde-31
+  border-radius: 31px
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.pos-center
+    &:before
+      background-position: center
+  &.size-full
+    &:before
+      background-size: 100%
+    &.med
+      @media screen and (max-width: $bp-max-md)
+        &:before
+          background-size: cover
+  &.pos-center
+    &:before
+      background-position: center
+  &.bottom-1
+    &:before
+      bottom: 50px
+  &.f1
+    &:before
+      background-color: #EDEAE5
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/15.png)
+  &.f3
+    &:before
+      background-color: #E3F3F4
+  &__contenido
+    position: relative
+
+.slyder-a__bullets__item
+  background-color: #FE8953
+  border: none
+.slyder-a__bullets__item.slyder-a__bullets__item--active
+    background-color: #FECFB9

@@ -20,12 +20,12 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
+              p.home-main-title Pensamiento Estratégico y Prospectivo
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde el inicio de las organizaciones humanas, planificar para el futuro ha sido clave para enfrentar los desafíos del entorno. El pensamiento estratégico y prospectivo se presenta como una herramienta esencial para anticipar escenarios, gestionar riesgos y aprovechar oportunidades en un mundo cambiante. En esta primera unidad, se explorará cómo las organizaciones pueden desarrollar una visión a largo plazo, adaptarse a la incertidumbre y construir estrategias sostenibles que promuevan su competitividad y resiliencia..
+              p.descripcion.mb-4 En un entorno empresarial caracterizado por la incertidumbre y la rápida evolución, la prospectiva estratégica emerge como una herramienta esencial para anticiparse a los cambios y tomar decisiones informadas. La Unidad 2 profundiza en los fundamentos de la prospectiva, diferenciándose de la predicción y explorando metodologías clave como el análisis PESTEL y la técnica Delphi. Estas herramientas permiten identificar tendencias, riesgos y oportunidades, diseñando estrategias adaptativas y resilientes. A través de esta unidad, los estudiantes desarrollarán habilidades para liderar con visión estratégica en escenarios dinámicos y complejos.
                 br
                 br
-                |#[b ¡Prepárate para liderar con visión y estrategias que trascienden  el cambio!]
+                |#[b ¡Prepárate para construir un futuro estratégico y competitivo!]
 
 
               .button-container.mt-auto

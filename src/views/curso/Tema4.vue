@@ -1,124 +1,270 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'4. Análisis de la toma de decisiones estratégicas en diferentes áreas profesionales'")
+  BannerInterno(:subTitulo="'4. Elaboración de escenarios prospectivos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4 La toma de decisiones estratégicas, es una habilidad crítica que se aplica en diversas áreas profesionales. Cada campo enfrenta sus propios desafíos y contextos, lo que requiere enfoques únicos para la toma de decisiones, en donde la planificación prospectiva juega un papel fundamental para anticipar futuros posibles y adaptarse a las circunstancias cambiantes (Bas Amorós, 2013). A continuación, se analizan cinco áreas claves: 
-    .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
-        h3 Contexto empresarial
-        p.mb-4 En el ámbito empresarial, la toma de decisiones estratégicas involucra la formulación de planes a largo plazo, para alcanzar objetivos organizacionales. Las empresas utilizan herramientas como el análisis DAFO y la planificación estratégica para evaluar su entorno y anticipar tendencias del mercado. Por ejemplo, una empresa puede decidir diversificar su línea de productos en respuesta a cambios, en las preferencias del consumidor. Aquí, la planificación prospectiva permite identificar oportunidades de crecimiento y gestionar riesgos asociados a la introducción de nuevos productos; para esto tienen en cuenta:
-        .p-4(style="background-color: #FFF4C0")
-          .ps-4.pe-5
-            .row.justify-content-center.align-items-center.mb-4
-              .col-auto
-                figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Estrategias de mercado y posicionamiento:] utilizar el análisis de tendencias y el entorno competitivo para formular estrategias efectivas.
-            .row.justify-content-center.align-items-center
-              .col-auto
-                figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Innovación y desarrollo de productos:] identificación de oportunidades para nuevos productos y servicios, teniendo en cuenta el mercado objetivo.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/26.png', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/27.png', alt='')
-      .col-lg-7
-        h3 Sector salud
-        p.mb-4 En el sector salud, las decisiones estratégicas son cruciales para garantizar la calidad de la atención y la sostenibilidad de los servicios. Los administradores deben considerar múltiples factores, como las necesidades de la población, la disponibilidad de recursos y las políticas de salud pública. La planificación prospectiva se aplica al evaluar escenarios futuros de demanda de servicios de salud, lo que ayuda a los hospitales a adaptarse a cambios demográficos y epidemiológicos. 
-          br
-          br
-          |Por ejemplo, una institución puede decidir expandir sus servicios de telemedicina en respuesta a una creciente demanda de atención remota, para ello tienen en cuenta:
-        .p-4(style="background-color: #FFF4C0")
-          .ps-4.pe-5
-            .row.justify-content-center.align-items-center.mb-4
-              .col-auto
-                figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Planificación de servicios de salud:] anticipar necesidades futuras y adaptar los servicios a la población.
-          .ps-4.pe-5
-            .row.justify-content-center.align-items-center
-              .col-auto
-                figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Gestión de crisis sanitarias:] toma de decisiones estratégicas buscando mitigar el riesgo en la respuesta a emergencias de salud pública, como pandemias.
-    .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
-        h3 Educación
-        p.mb-4 En el ámbito educativo, la toma de decisiones estratégicas puede impactar significativamente, el rendimiento académico y la equidad en el acceso a la educación.
-          br
-          br
-          |Las instituciones deben analizar datos sobre el desempeño de los estudiantes, las tendencias en la matrícula y las necesidades del mercado laboral. La planificación prospectiva permite a las escuelas y universidades, desarrollar programas académicos que respondan a las habilidades requeridas en el futuro; para ello tiene en cuenta: 
-        .p-4.mb-4(style="background-color: #FFF4C0")
-          .ps-4.pe-5
-            .row.justify-content-center.align-items-center.mb-4
-              .col-auto
-                figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Evaluación de programas y políticas:] evaluar y ajustar programas académicos a las necesidades cambiantes del mercado laboral.
-        p.mb-0 Por ejemplo, una universidad podría decidir diseñar un programa de estudios en inteligencia artificial anticipando su creciente importancia en diversas industrias, utilizando análisis prospectivos para identificar tendencias educativas.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/28.png', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/29.png', alt='')
-      .col-lg-7
-        h3 Tecnología
-        p.mb-4 La industria tecnológica es un campo donde la toma de decisiones estratégicas es especialmente dinámica. 
-          br
-          br
-          |Las empresas deben innovar constantemente para mantenerse competitivas en un entorno que evoluciona rápidamente. Las decisiones sobre inversión en investigación y desarrollo, así como sobre asociaciones estratégicas, son necesarias. 
-          br
-          br
-          |La planificación prospectiva permite a las empresas tecnológicas, anticipar cambios en el comportamiento del consumidor y en las tendencias del mercado, para ello puede:
 
-        .p-4(style="background-color: #FFF4C0")
-          .ps-4.pe-5
-            .row.justify-content-center.align-items-center.mb-4
-              .col-auto
+    p.mb-4(data-aos="fade") Los escenarios prospectivos son representaciones narrativas de futuros posibles, que ayudan a las organizaciones en la toma de decisiones estratégicas, facilitando la preparación ante diversas eventualidades. Estos escenarios no buscan predecir el futuro exacto, sino presentar múltiples posibilidades que podrían materializarse en función de tendencias y factores actuales. Este enfoque ha sido utilizado por empresas de gran envergadura, como Shell, que desde los años setenta ha aplicado la elaboración de escenarios para anticiparse a cambios significativos, en el mercado energético y adaptarse a ellos, de forma proactiva.
+
+    .row.mb-4
+      .col-lg-5(data-aos="fade-right")
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/22.png",style="max-width: 505px;")
+      .col-lg-7(data-aos="fade-left")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          div(titulo="Importancia")
+            p.mb-4 La importancia de los escenarios prospectivos en la planificación, radica en su capacidad para aumentar la resiliencia de las organizaciones. Al prever posibles desarrollos futuros, las empresas pueden identificar oportunidades y amenazas, ajustando sus estrategias para enfrentar diferentes eventualidades. Esto les permite no solo adaptarse a los cambios, sino también aprovechar las oportunidades emergentes con mayor rapidez y eficiencia. En un entorno cada vez más incierto, la elaboración de escenarios se convierte en una herramienta invaluable para organizaciones de cualquier sector que desean mantenerse competitivas.
+          div(titulo="Objetivos")
+            p.mb-4 Los objetivos de la elaboración de escenarios prospectivos incluyen, en primer lugar, explorar futuros alternativos y evaluar sus posibles implicaciones. Este proceso ayuda a identificar los factores de riesgo y a tomar decisiones más informadas, que consideran el impacto de distintas variables en el futuro. Además, los escenarios prospectivos permiten a las organizaciones anticiparse a tendencias emergentes y adoptar una postura proactiva en lugar de reactiva, posicionándose estratégicamente ante cambios que podrían surgir en el entorno. (Perilla Maluche et al., 2020)#[sup 15]
+
+    .fondo-color-sistema-j.p-4.mb-5(data-aos="fade-right")
+      .row
+        .col-md-auto
+          figure.mb-4.mb-lg-0
+            img.mx-auto(src="@/assets/curso/temas/23.svg",style="max-width: 90px;")
+        .col
+          p.mb-0 Otro objetivo fundamental es #[b fomentar la creatividad y la innovación] dentro de la organización. Al considerar múltiples escenarios y explorar una gama de posibilidades, se estimula el pensamiento creativo, lo cual facilita la generación de ideas y la formulación de estrategias innovadoras. Esto no solo mejora la capacidad de respuesta de la organización, sino que también promueve una cultura de adaptabilidad y creatividad en todos los niveles de la toma de decisiones.
+    
+    #t_4_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 4.1] Metodologías comunes
+    
+    p.mb-4(data-aos="fade") Para la elaboración de escenarios prospectivos, existen diversas herramientas y metodologías que facilitan el análisis de variables y la creación de futuros posibles. Entre las herramientas más utilizadas se encuentran las matrices de impacto y probabilidad, que permiten visualizar la relación entre diferentes variables y su potencial impacto en el futuro. Estas matrices ayudan a identificar los factores claves que podrían tener un efecto considerable en cada escenario, y a evaluar la probabilidad de que estos eventos se materialicen. De este modo, la organización puede priorizar aquellos factores que requieren mayor atención en la planificación estratégica.
+
+    p.fw-bold(style="font-size: 30px;") Ejemplo de matriz de probabilidad e impacto
+
+    .row.align-items-center.mb-5
+      .col-lg-6(data-aos="fade-right")
+        p.mb-5 Una empresa está evaluando la incursión de nuevas tecnologías, para mejorar su competitividad. Los eventos o tendencias que se identifican son:
+
+        ul.lista-ul
+          li.d-flex.borde-p-1.pb-3.mb-3
+            div.me-2
+              span.d-inline-flex.fondo-color-sistema-k.fw-bold.px-2 1
+            span Automatización de procesos.
+          li.d-flex.borde-p-1.pb-3
+            div.me-2
+              span.d-inline-flex.fondo-color-sistema-k.fw-bold.px-2 2
+            span Implementación de inteligencia artificial en atención al cliente.
+          li.d-flex.borde-p-1.pb-3
+            div.me-2
+              span.d-inline-flex.fondo-color-sistema-k.fw-bold.px-2 3
+            span Adopción de sistemas de #[em blockchain] para trazabilidad.
+          li.d-flex.borde-p-1.pb-3
+            div.me-2
+              span.d-inline-flex.fondo-color-sistema-k.fw-bold.px-2 4
+            span Desarrollo de aplicaciones para mejorar la experiencia del usuario.
+          li.d-flex.borde-p-1.pb-3
+            div.me-2
+              span.d-inline-flex.fondo-color-sistema-k.fw-bold.px-2 5
+            span Capacitación continua en habilidades digitales para empleados.
+
+      .col-lg-6.order-first.order-lg-last(data-aos="fade-left")
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/24.png",style="max-width: 610px;")
+    
+    p.fw-bold.mb-4(style="font-size: 30px;") Matriz de probabilidad (calificación de 1 a 5)
+
+    p.mb-4 Donde 5 es alta probabilidad y 1 es poca probabilidad.
+
+    p #[b Tabla 1.] Ejemplo matriz de probabilidad
+
+    .tabla-a.tabla-p-1.mb-4(data-aos="fade")
+      table
+        thead
+          tr
+            th.text-center Evento
+            th.text-center(style="width: 200px;") Probabilidad
+            th.text-center Justificación
+        tbody
+          tr
+            td Automatización de procesos.
+            td.text-center 4
+            td Tecnología accesible y beneficios económicos claros.
+          tr
+            td IA en atención al cliente.
+            td.text-center 3
+            td Costos elevados, pero interés creciente en personalización.
+          tr
+            td #[em Blockchain] para trazabilidad.
+            td.text-center 2
+            td Alta inversión inicial y complejidad técnica.
+          tr
+            td Apps para experiencia del usuario.
+            td.text-center 5
+            td Demanda alta por parte de los clientes.
+          tr
+            td Capacitación en habilidades digitales.
+            td.text-center 4
+            td Importancia creciente en el mercado laboral actual.
+
+    p.fw-bold.mb-4(style="font-size: 26px;") Matriz de impacto (calificación de 1 a 5)
+
+    p.mb-4 Donde 5 es alto impacto y 1 es poco impacto.
+
+    p #[b Tabla 2.] Ejemplo matriz de impacto
+
+    .tabla-a.tabla-p-1.mb-5
+      table
+        thead
+          tr
+            th.text-center Evento
+            th.text-center(style="width: 200px;") Impacto
+            th.text-center Justificación
+        tbody
+          tr
+            td Automatización de procesos.
+            td.text-center 5
+            td Alta eficiencia y reducción de costos operativos.
+          tr
+            td IA en atención al cliente.
+            td.text-center 4
+            td Mejora la satisfacción del cliente y fidelización.
+          tr
+            td #[em Blockchain] para trazabilidad.
+            td.text-center 3
+            td Mayor confianza en la cadena de suministro.
+          tr
+            td Apps para experiencia del usuario.
+            td.text-center 4
+            td Mejora la interacción y la experiencia del cliente.
+          tr
+            td Capacitación en habilidades digitales.
+            td.text-center 3
+            td Aumenta la productividad y adaptabilidad del personal.
+
+
+    p #[b Tabla 3.] Ejemplo combinación: matriz de probabilidad vs. Matriz de impacto
+
+    .tabla-a.tabla-p-1.mb-4
+      table
+        thead
+          tr
+            th.text-center Evento
+            th.text-center(style="width: 200px;") Probabilidad
+            th.text-center(style="width: 200px;") Impacto
+            th.text-center Clasificación
+        tbody
+          tr
+            td Automatización de procesos.
+            td.text-center 4
+            td.text-center 5
+            td.text-center Alta prioridad.
+          tr
+            td IA en atención al cliente.
+            td.text-center 3
+            td.text-center 4
+            td.text-center Prioridad media-alta.
+          tr
+            td #[em Blockchain] para trazabilidad.
+            td.text-center 2
+            td.text-center 3
+            td.text-center Prioridad baja.
+          tr
+            td Apps para experiencia del usuario.
+            td.text-center 5
+            td.text-center 4
+            td.text-center Alta prioridad.
+          tr
+            td Capacitación en habilidades digitales.
+            td.text-center 4
+            td.text-center 3
+            td.text-center Prioridad media.
+    
+    .row.mb-4
+      .col-lg-7
+        p.mb-4 En este ejemplo, la automatización de procesos y el desarrollo de aplicaciones, se consideran prioridades altas, dado que combinan una alta probabilidad de implementación con un impacto significativo. Este tipo de análisis facilita la toma de decisiones estratégicas para enfocar recursos y esfuerzos en las iniciativas con mayor potencial transformador y viabilidad.
+        .fondo-color-sistema-j.p-4
+          .row
+            .col-md-auto
+              figure.mb-4.mb-md-0
+                img.mx-auto(src="@/assets/curso/temas/26.svg",style="max-width: 90px;")
+            .col
+              p.m-0 Además de las #[b matrices de impacto], el uso de software de simulación, es una herramienta valiosa en la creación y análisis de escenarios complejos. Estos programas permiten simular diversos futuros posibles, a partir de múltiples variables, facilitando la evaluación de cada escenario con mayor precisión. Los #[b modelos de simulación] son especialmente útiles en sectores como la tecnología y las finanzas, donde las proyecciones basadas en datos, pueden ayudar a reducir la incertidumbre y a optimizar las decisiones.
+
+      .col-lg-5.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/25.png",style="max-width: 505px;")
+
+    p.mb-5 Las metodologías destacadas para la creación de escenarios, son:
+
+    TabsC.color-primario.mb-5(data-aos="fade-left")
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Método de Shell" :icon="require('@/assets/curso/temas/3.svg')")
+        .row.align-items-center
+          .col-lg-5
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/27.png',style="max-width:456px;")
+          .col-lg-7.mb-4.mb-md-0
+            p.mb-4.fw-bold Método de Shell
+            p.mb-4 Se centra en la identificación de factores claves que podrían influir en el futuro y el desarrollo de narrativas sobre cómo podrían interactuar estos factores.
+            p.mb-0 Este enfoque es útil para explorar posibles cambios en el entorno, de forma integral, permitiendo a las organizaciones visualizar cómo podrían reaccionar ante diferentes combinaciones de eventos y tendencias. El método de Shell ha sido utilizado ampliamente en el sector energético y ha servido de referencia en la planificación estratégica de diversas industrias.
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Análisis de tendencias" :icon="require('@/assets/curso/temas/3.svg')")
+        .row.align-items-center
+          .col-lg-5
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/28.png',style="max-width:456px;")
+          .col-lg-7.mb-4.mb-md-0
+            p.mb-4.fw-bold Análisis de tendencias
+            p.mb-0 Es otra metodología común, que se basa en el estudio de datos históricos y actuales para proyectar futuros posibles. Este enfoque permite identificar patrones y cambios emergentes, que podrían tener un impacto significativo en el futuro de la organización. A través del análisis de tendencias, las organizaciones pueden anticiparse a las fuerzas que impulsan el cambio y ajustar sus estrategias para responder, de manera efectiva, a los desarrollos futuros.
+
+
+    #t_4_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 4.2] Aplicación en sectores económicos
+
+    p.mb-4 La elaboración de escenarios prospectivos tiene aplicaciones prácticas en distintos sectores económicos, donde permite anticipar cambios y ajustar estrategias, en función de los futuros posibles. 
+
+    p.mb-4 A continuación, se presentan algunas aplicaciones:
+    
+    .fondo-personalizado-1.f3.mb-4
+      .fondo-personalizado-1__contenido.py-5
+        .bg-white
+          SlyderA.slider-personalizado-1.pt-lg-3(tipo="b")
+            .row.justify-content-center.pt-2.align-items-center
+              .col-lg-6.mb-4.mb-lg-0
+                h4.mb-4 Escenarios prospectivos
+                p.mb-0 En el sector empresarial, las compañías utilizan escenarios prospectivos para prever fluctuaciones del mercado y ajustar sus planes de negocio. Por ejemplo, en la industria tecnológica, empresas como IBM han adoptado el análisis de escenarios para proyectar la evolución de tecnologías emergentes, como la inteligencia artificial. Al prever cómo podría desarrollarse la tecnología y su impacto en la sociedad, IBM puede ajustar su estrategia de innovación y mantenerse a la vanguardia.
+              .col-lg-5
                 figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Toma de decisiones en innovación tecnológica:] evaluar tendencias emergentes y tomar decisiones sobre inversión en innovación y desarrollo.
-          .ps-4.pe-5
-            .row.justify-content-center.align-items-center
-              .col-auto
+                  img.mx-auto(src="@/assets/curso/temas/29.png",style="max-width: 485px;")
+            .row.justify-content-center.pt-2.align-items-center
+              .col-lg-6.mb-4.mb-lg-0
+                h4.mb-4 Mitigación de riesgos y desarrollo de estrategias de contingencia
+                p.mb-0 Otra aplicación importante se da en la mitigación de riesgos y el desarrollo de estrategias de contingencia. Las empresas pueden analizar los escenarios más probables y desarrollar planes de acción que les permitan responder, de manera ágil, a cambios abruptos en el entorno. En el sector financiero, por ejemplo, las instituciones utilizan escenarios prospectivos para anticiparse a crisis económicas, ajustando sus políticas de inversión y gestión de riesgos, para reducir el impacto de posibles recesiones.
+              .col-lg-5
                 figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Adopción de nuevas tecnologías:] anticipar el impacto de nuevas tecnologías en el comportamiento del consumidor y en los procesos operativos.
-    .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
-        h3 Sector público y políticas
-        p.mb-4 La toma de decisiones en el sector público es una tarea de especial cuidado, implica considerar las necesidades de la  población, la viabilidad de los recursos y el impacto social de las políticas implementadas. 
-          br
-          br
-          |La prospectiva es fundamental en este contexto, ya que permite a los responsables de la formulación de políticas anticipar futuros posibles y diseñar estrategias efectivas para enfrentar desafíos emergentes (Bas Amorós, 2013), para ello puede: 
-        .p-4(style="background-color: #FFF4C0")
-          .ps-4.pe-5
-            .row.justify-content-center.align-items-center.mb-4
-              .col-auto
+                  img.mx-auto(src="@/assets/curso/temas/30.png",style="max-width: 485px;")
+            .row.justify-content-center.pt-2.align-items-center
+              .col-lg-6.mb-4.mb-lg-0
+                h4.mb-4 Escenarios Prospectivos para Combatir el Cambio Climático
+                p.mb-0 En el ámbito de las políticas públicas, los gobiernos y organizaciones internacionales también aplican escenarios prospectivos para abordar problemas de interés global, como el cambio climático y la sostenibilidad. Un ejemplo destacado es el trabajo de la ONU, que utiliza escenarios prospectivos para planificar acciones contra el cambio climático, evaluando el impacto de diferentes políticas, antes de su implementación. Esto permite a las autoridades internacionales coordinar esfuerzos y establecer metas a largo plazo, basadas en la evaluación de riesgos y oportunidades ambientales.
+              .col-lg-5
                 figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Planificación estratégica en políticas públicas:] diseñar políticas que respondan a desafíos sociales y económicos futuros.
-            .row.justify-content-center.align-items-center
-              .col-auto
-                figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 #[b Participación ciudadana en la toma de decisiones:] Incorporación activa de la población en la formulación de políticas públicas para garantizar que sean efectivas, inclusivas y sostenibles. 
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/30.png', alt='')
-    .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #F8EAE9 ")
-      .row.justify-content-center.align-items-center
-        .col-lg.order-2
-          .p-4
-            p.mb-0(data-aos="fade-up") En resumen, la introducción al pensamiento estratégico nos ha proporcionado una comprensión integral de cómo este enfoque puede ser aplicado en diversas áreas, preparando el terreno para un análisis más profundo en las siguientes unidades. Al adoptar una mentalidad estratégica, los profesionales pueden no solo enfrentar los desafíos actuales, sino también construir futuros más deseables y sostenibles. 
-        .col-lg-auto
+                  img.mx-auto(src="@/assets/curso/temas/31.png",style="max-width: 485px;")
+
+    p.mb-5(data-aos="fade-left") La evaluación de políticas a través de escenarios prospectivos, permite a los formuladores de políticas anticipar los efectos de sus decisiones y ajustar sus estrategias, de acuerdo con los posibles resultados. Este enfoque ayuda a los gobiernos a tomar decisiones informadas y responsables, asegurando que las políticas implementadas tengan impacto positivo en la sociedad. La planificación basada en escenarios, se ha convertido en una herramienta esencial para la gestión de problemas complejos que requieren una visión a largo plazo y una postura adaptativa.
+
+    #t_4_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 4.3] Retos y desafíos en la implementación
+    
+    p.mb-4 La implementación de escenarios prospectivos, presenta varios desafíos que deben abordarse para maximizar su efectividad. Uno de los principales retos es la incertidumbre inherente del futuro, debido a que es imposible prever con exactitud cómo evolucionarán todas las variables. Esta incertidumbre puede dificultar la elaboración de escenarios precisos y, en algunos casos, generar resistencia para fundamentar las estrategias en proyecciones inciertas. Para enfrentar este desafío, es importante recopilar datos sólidos y emplear una variedad de métodos cualitativos y cuantitativos que permitan minimizar los márgenes de error.
+
+    .row.align-items-center.mb-4
+      .col-lg-5(data-aos="fade-right")
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/32.png",style="max-width: 505px;")
+      .col-lg-7(data-aos="fade-left")
+        p.mb-4 Otro desafío común en la implementación de escenarios, es la resistencia al cambio dentro de la organización. Los escenarios prospectivos requieren un enfoque adaptativo y abierto, lo que puede generar resistencia en algunos miembros de la organización, especialmente si están acostumbrados a un enfoque de planificación más rígido. Para mitigar esta resistencia, es importante involucrar a los equipos en el proceso de creación de escenarios y fomentar una cultura de flexibilidad y aprendizaje continuo. Además, incluir a un grupo diverso de expertos en el proceso, puede reducir los sesgos y mejorar la calidad de los escenarios.
+
+        .fondo-color-sistema-i.p-4
+          p La diversidad de perspectivas es un aspecto clave para superar las limitaciones de los escenarios prospectivos. Al incluir a expertos de diferentes áreas y con distintos enfoques, se amplía la comprensión de los posibles impactos de cada variable, en el escenario. Esto permite reducir los sesgos cognitivos y evita que los escenarios se construyan exclusivamente en función de creencias o experiencias individuales. Asimismo, es esencial realizar una revisión continua de los escenarios y actualizarlos regularmente, para reflejar los cambios en el entorno.
+  
+    .fondo-color-sistema-m
+      .row
+        .col-lg-8.align-content-center
+          p.mb-0.p-4.pe-lg-0 Finalmente, es importante reconocer las limitaciones de los escenarios, porque, aunque pueden ser útiles para la planificación estratégica, no eliminan la incertidumbre ni garantizan una adaptación perfecta a los cambios futuros. Los sesgos cognitivos, como el exceso de confianza en un escenario particular, pueden influir en la toma de decisiones y reducir la efectividad de las estrategias. Por ello, es recomendable que las organizaciones usen los escenarios como una guía flexible y no como una predicción absoluta, ajustando sus estrategias conforme evolucione el contexto.
+        .col-lg-4.order-first.order-lg-last.align-content-center
           figure
-            img(src='@/assets/curso/temas/31.png', alt='')
+            img.mx-auto(src="@/assets/curso/temas/33.png")
+
+     
 </template>
 
 <script>
@@ -136,8 +282,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
-</style>
+<style lang="sass"></style>
