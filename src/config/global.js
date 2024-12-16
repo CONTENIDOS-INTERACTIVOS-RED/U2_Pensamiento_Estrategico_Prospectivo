@@ -1,20 +1,5 @@
 export default {
   global: {
-    componenteFormativo: 'Componente Formativo',
-    descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
-      },
-    ],
     numeroUnidad: '2',
     tituloUnidad: 'Prospectiva y análisis de escenarios futuros',
   },
@@ -154,32 +139,12 @@ export default {
   referencias: [
     {
       referencia:
-        'López Segrera, F. Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización: (ed.). Editorial Miguel Ángel Porrúa.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/75157',
-    },
-    {
-      referencia:
-        'Perilla Maluche, R. B. Orjuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la prospectiva francesa: (1 ed.). Sello Editorial Universidad del Tolima.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/228417',
-    },
-    {
-      referencia:
-        'Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos: (ed.). Editorial UOC.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/59107',
-    },
-    {
-      referencia:
-        'Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro: (ed.). Ediciones y Gráficos Eón.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/120296',
-    },
-    {
-      referencia:
         'Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?: (1 ed.). LID Editorial España.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/271461',
     },
     {
       referencia:
-        'Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: visiones): (ed.). Plaza y Valdés (España).',
+        'Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: visiones): ( ed.). Plaza y Valdés (España).',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/42001',
     },
     {
@@ -189,13 +154,33 @@ export default {
     },
     {
       referencia:
-        'Chávez Martínez, G. (2003). El pensamiento del estratega: (ed.). Plaza y Valdés (México).',
+        'Chávez Martínez, G. (2003). El pensamiento del estratega: ( ed.). Plaza y Valdés (México).',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/75568',
     },
     {
       referencia:
-        'López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica: (ed.). Editorial Universo Sur.',
+        'López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica: ( ed.). Editorial Universo Sur.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/71774',
+    },
+    {
+      referencia:
+        'López Segrera, F. Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización: ( ed.). Editorial Miguel Ángel Porrúa.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/75157',
+    },
+    {
+      referencia:
+        'Perilla Maluche, R. B. Orjuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la prospectiva francesa: (1 ed.). Sello Editorial Universidad del Tolima.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/228417',
+    },
+    {
+      referencia:
+        'Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos: ( ed.). Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/59107',
+    },
+    {
+      referencia:
+        'Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro: ( ed.). Ediciones y Gráficos Eón.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/120296',
     },
   ],
   glosario: [
