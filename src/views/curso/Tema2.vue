@@ -207,7 +207,7 @@
                 .col
                   p.mb-0 #[b Por ejemplo:] una empresa de tecnología que busca expandirse a nivel internacional, el análisis PESTEL podría revelar factores claves, como regulaciones locales (aspecto legal), políticas de incentivos fiscales (aspecto político) o el nivel de adopción de nuevas tecnologías en el mercado de destino (aspecto tecnológico), lo cual ayudaría a diseñar una estrategia de expansión masiva.
 
-    .row.align-items-center
+    .row.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p.mb-4 La combinación de la Técnica Delphi y el análisis PESTEL, permite obtener una visión más completa y adaptativa del futuro. Mientras que la técnica Delphi se centra en las opiniones de expertos y permite la exploración profunda de temas específicos, el análisis PESTEL proporciona una comprensión integral del entorno y de las fuerzas externas que pueden influir en las estrategias organizacionales.
 

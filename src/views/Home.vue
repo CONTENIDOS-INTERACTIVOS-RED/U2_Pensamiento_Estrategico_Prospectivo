@@ -20,12 +20,10 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Pensamiento Estratégico y Prospectivo
+              p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
               p.descripcion.mb-4 En un entorno empresarial caracterizado por la incertidumbre y la rápida evolución, la prospectiva estratégica emerge como una herramienta esencial para anticiparse a los cambios y tomar decisiones informadas. La Unidad 2 profundiza en los fundamentos de la prospectiva, diferenciándose de la predicción y explorando metodologías clave como el análisis PESTEL y la técnica Delphi. Estas herramientas permiten identificar tendencias, riesgos y oportunidades, diseñando estrategias adaptativas y resilientes. A través de esta unidad, los estudiantes desarrollarán habilidades para liderar con visión estratégica en escenarios dinámicos y complejos.
-                br
-                br
-                |#[b ¡Prepárate para construir un futuro estratégico y competitivo!]
+              p.descripcion #[b ¡Prepárate para construir un futuro estratégico y competitivo!]
 
 
               .button-container.mt-auto

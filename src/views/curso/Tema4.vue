@@ -67,7 +67,7 @@
 
     p #[b Tabla 1.] Ejemplo matriz de probabilidad
 
-    .tabla-a.tabla-p-1.mb-4(data-aos="fade")
+    .tabla-a.tabla-p-1.mb-5(data-aos="fade")
       table
         thead
           tr
@@ -256,7 +256,7 @@
         .fondo-color-sistema-i.p-4
           p La diversidad de perspectivas es un aspecto clave para superar las limitaciones de los escenarios prospectivos. Al incluir a expertos de diferentes áreas y con distintos enfoques, se amplía la comprensión de los posibles impactos de cada variable, en el escenario. Esto permite reducir los sesgos cognitivos y evita que los escenarios se construyan exclusivamente en función de creencias o experiencias individuales. Asimismo, es esencial realizar una revisión continua de los escenarios y actualizarlos regularmente, para reflejar los cambios en el entorno.
   
-    .fondo-color-sistema-m
+    .fondo-color-sistema-m.mb-5
       .row
         .col-lg-8.align-content-center
           p.mb-0.p-4.pe-lg-0 Finalmente, es importante reconocer las limitaciones de los escenarios, porque, aunque pueden ser útiles para la planificación estratégica, no eliminan la incertidumbre ni garantizan una adaptación perfecta a los cambios futuros. Los sesgos cognitivos, como el exceso de confianza en un escenario particular, pueden influir en la toma de decisiones y reducir la efectividad de las estrategias. Por ello, es recomendable que las organizaciones usen los escenarios como una guía flexible y no como una predicción absoluta, ajustando sus estrategias conforme evolucione el contexto.
