@@ -5,7 +5,7 @@
 
     p.mb-4 Primero, conozcamos la definición de cada uno de estos términos:
 
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-3
       .col-lg-7
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Identificación de tendencias")
@@ -18,6 +18,23 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/13.png",style="max-width: 505px;")
     
+
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        .bg-color-sintesis.p-4.mb-4
+          .row.justify-content-around.align-items-center
+            //- .col-md-auto
+            //-   img(src="@/assets/template/video.svg", style="width: 80px;").mx-auto.mb-4.mb-lg-0
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-4 Para profundizar, por favor dar lectura al siguiente artículo:  
+                  a.anexo.mb-0.bg-white.w-fit(href="https://revistaensayosmilitares.cl/index.php/tica/article/view/159" target="_blank")(data-aos="flip-up")
+                    .anexo__icono(:style="{'background-color': '#dbe7fc'}")
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p <strong>Artículo. </strong> Mardones, H. D. (2019). Los escenarios de competencia y las tendencias futuras. Tema de Investigación Central de la Academia, pp. 127–145.
+
     .fondo-color-sistema-j.p-4.mb-5
       .row(data-aos="fade-right")
         .col-md-auto
@@ -31,10 +48,11 @@
     
     p Para conocer sobre esta temática, lo invitamos a ver el siguiente video:
 
-    .fondo-personalizado-1.f2.mb-5
-      .fondo-personalizado-1__contenido.py-5
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
         figure
-          img.mx-auto(src="@/assets/curso/temas/16.png")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/DasHVfZl69U?si=FT0DsH7tmXGP9Jii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     #t_3_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 3.2] Métodos para identificar riesgos futuros

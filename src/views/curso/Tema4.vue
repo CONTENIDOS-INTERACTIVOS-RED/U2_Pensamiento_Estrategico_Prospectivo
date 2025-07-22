@@ -24,6 +24,25 @@
         .col
           p.mb-0 Otro objetivo fundamental es #[b fomentar la creatividad y la innovación] dentro de la organización. Al considerar múltiples escenarios y explorar una gama de posibilidades, se estimula el pensamiento creativo, lo cual facilita la generación de ideas y la formulación de estrategias innovadoras. Esto no solo mejora la capacidad de respuesta de la organización, sino que también promueve una cultura de adaptabilidad y creatividad en todos los niveles de la toma de decisiones.
     
+
+
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        .bg-color-sintesis.p-4.mb-4
+          .row.justify-content-around.align-items-center
+            //- .col-md-auto
+            //-   img(src="@/assets/template/video.svg", style="width: 80px;").mx-auto.mb-4.mb-lg-0
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-4 Para profundizar, por favor dar lectura al siguiente artículo:  
+                  a.anexo.mb-0.bg-white.w-fit(href="https://www.redalyc.org/pdf/816/81620150004.pdf" target="_blank")(data-aos="flip-up")
+                    .anexo__icono(:style="{'background-color': '#dbe7fc'}")
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p <strong>Artículo. </strong> Chung Pinzás, A., (2009). Prospectiva estratégica: más allá del plan estratégico. Industrial Data, 12(2), pp. 27-31. 
+
+
     #t_4_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 4.1] Metodologías comunes
     
@@ -206,6 +225,23 @@
             p.mb-0 Es otra metodología común, que se basa en el estudio de datos históricos y actuales para proyectar futuros posibles. Este enfoque permite identificar patrones y cambios emergentes, que podrían tener un impacto significativo en el futuro de la organización. A través del análisis de tendencias, las organizaciones pueden anticiparse a las fuerzas que impulsan el cambio y ajustar sus estrategias para responder, de manera efectiva, a los desarrollos futuros.
 
 
+    .row.justify-content-center.mb-4
+      .col-lg-12
+        .bg-color-sintesis.p-4.mb-4
+          .row.justify-content-around.align-items-center
+            //- .col-md-auto
+            //-   img(src="@/assets/template/video.svg", style="width: 80px;").mx-auto.mb-4.mb-lg-0
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-4 #[b Para profundizar el tema, por favor visualizar el siguiente video: ]
+
+                  a.anexo.mb-0.bg-white.w-fit(href="https://www.youtube.com/watch?v=-SB13lmAEcc" target="_blank")(data-aos="flip-up")
+                    .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                      img(src="@/assets/componentes/youtube-icon.svg")
+                    .anexo__texto
+                      p <strong>Video. </strong> WOI Escuela de Organización Industrial. (2012). Ana Morato. La prospectiva como herramienta para la planificación. el caso OPTI (video). YouTube. 
+
     #t_4_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 4.2] Aplicación en sectores económicos
 
@@ -264,7 +300,30 @@
           figure
             img.mx-auto(src="@/assets/curso/temas/33.png")
 
+
+    .row.justify-content-center.mb-4
+      .col-lg-12
+        .bg-color-sintesis.p-4.mb-4
+          .row.justify-content-around.align-items-center
+            //- .col-md-auto
+            //-   img(src="@/assets/template/video.svg", style="width: 80px;").mx-auto.mb-4.mb-lg-0
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-4 #[b Para profundizar el tema, por favor visualizar el siguiente video: ]
+
+                  a.anexo.mb-0.bg-white.w-fit(href="https://www.youtube.com/watch?v=aRiiQuKD5lA" target="_blank")(data-aos="flip-up")
+                    .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                      img(src="@/assets/componentes/youtube-icon.svg")
+                    .anexo__texto
+                      p <strong>Video. </strong> Edu. Virtual y a Distancia de la U. de Cundinamarca. (2023). Prospectiva estratégica parte 2 (video). YouTube. 
+
      
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+          
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2 MATERIAL COMPLEMENTARIO
@@ -335,3 +394,196 @@ export default {
 </script>
 
 <style lang="sass"></style>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'La técnica Delphi se basa únicamente en datos cuantitativos para generar escenarios futuros.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La técnica Delphi no se basa únicamente en datos cuantitativos.',
+            mensaje_incorrecto:
+              'Incorrecto. La técnica Delphi utiliza tanto datos cuantitativos como cualitativos.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Cuál es una característica principal de las macrotendencias?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Cambian rápidamente en periodos cortos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Tienen un impacto global y de largo plazo.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Solo afectan a nichos específicos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Son irrelevantes para la planificación estratégica.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Las macrotendencias tienen un impacto global y de largo plazo.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las características de las macrotendencias.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué diferencia a las microtendencias de las macrotendencias?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Las microtendencias tienen un impacto global.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Las microtendencias son cambios estructurales a largo plazo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Las microtendencias son específicas de nichos o sectores particulares.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Las microtendencias no tienen relevancia estratégica.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Las microtendencias son específicas de nichos o sectores particulares.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa la diferencia entre microtendencias y macrotendencias.',
+          },
+          {
+            id: 4,
+            texto: '¿Cuáles son componentes clave del análisis prospectivo?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Identificación de tendencias.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Estudio exclusivo de datos históricos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Análisis de riesgos futuros.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Evaluación de oportunidades emergentes.',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La identificación de tendencias, el análisis de riesgos futuros y la evaluación de oportunidades emergentes son componentes clave.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los componentes clave del análisis prospectivo.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuáles son beneficios del uso de la prospectiva estratégica?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Identificación de riesgos futuros.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Diseño de estrategias adaptativas.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Reducción de toda incertidumbre.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Aprovechamiento de oportunidades emergentes.',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La prospectiva estratégica permite identificar riesgos futuros, diseñar estrategias adaptativas y aprovechar oportunidades emergentes.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los beneficios de la prospectiva estratégica.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

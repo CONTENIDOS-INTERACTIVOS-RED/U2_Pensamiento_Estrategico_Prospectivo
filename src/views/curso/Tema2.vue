@@ -22,7 +22,7 @@
           figure.mb-4.mb-md-0
             img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 90px;")
         .col
-          p.mb-0 La combinación de estas herramientas como el uso de la técnica Delphi para identificar tendencias y el análisis PESTEL para comprender el entorno, fortalece la capacidad de adaptación. Estas herramientas ayudan a evaluar el contexto actual, y permiten proyectar cómo se podría evolucionar, brindando una ventaja competitiva en un entorno incierto (Perilla Maluche et al., 2020)7; al integrarlas, se pueden diseñar estrategias adaptativas y anticipativas, esenciales para manejar riesgos y aprovechar oportunidades.
+          p.mb-0 La combinación de estas herramientas como el uso de la técnica Delphi para identificar tendencias y el análisis PESTEL para comprender el entorno, fortalece la capacidad de adaptación. Estas herramientas ayudan a evaluar el contexto actual, y permiten proyectar cómo se podría evolucionar, brindando una ventaja competitiva en un entorno incierto (Perilla Maluche et al., 2020); al integrarlas, se pueden diseñar estrategias adaptativas y anticipativas, esenciales para manejar riesgos y aprovechar oportunidades.
     
     p.mb-5(data-aos="fade-right") El dominio de estas herramientas de análisis prospectivo, es fundamental para desarrollar una estrategia robusta y sostenible en el tiempo (Sánchez González, 2018). 
 
@@ -44,6 +44,28 @@
           p.mb-0 Este enfoque resulta #[b particularmente valioso] para explorar temas en los que el conocimiento está en constante evolución, como la planificación de tecnologías emergentes. 
     
     p.mb-4(data-aos="fade-left") En un ejemplo relacionado con la implementación de inteligencia artificial en el sector financiero, la técnica Delphi puede ayudar a identificar las oportunidades y los riesgos asociados, basándose en la experiencia y previsión de los expertos del sector.
+
+    .row.justify-content-center.mb-4
+      .col-lg-8
+        .bg-color-sintesis.p-4.mb-4
+          .row.justify-content-around.align-items-center
+            //- .col-md-auto
+            //-   img(src="@/assets/template/video.svg", style="width: 80px;").mx-auto.mb-4.mb-lg-0
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-4 #[b Para profundizar el tema, por favor visualizar el siguiente video: ]
+
+                  a.anexo.mb-0.bg-white.w-fit(href="https://www.youtube.com/watch?v=C6NiuuxtWiE" target="_blank")(data-aos="flip-up")
+                    .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                      img(src="@/assets/componentes/youtube-icon.svg")
+                    .anexo__texto
+                      p <strong>Video. </strong> CompREd UAB. (2019). Método Delphi (video). YouTube. 
+
+                //- .col-sm-auto
+                //-   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=-OiaE6l8ysg" target="_blank")
+                //-     span Ver video
+                //-     i.fas.fa-arrow-right
 
     p.mb-4(data-aos="fade") Las preguntas que se aplican en el método Delphi, según sea el caso, son:
 

@@ -272,7 +272,7 @@ export default {
     {
       termino: 'Innovación disruptiva',
       significado:
-        'introducción de productos o servicios que cambian significativamente las reglas del mercado, generando nuevas oportunidades y desafío ',
+        'introducción de productos o servicios que cambian significativamente las reglas del mercado, generando nuevas oportunidades y desafío.',
     },
   ],
   complementario: [
